@@ -12,36 +12,34 @@ My name is Brian Ponce and I will be going over steps 4-9 from Week 7's lab time
 
 ## 5) Cloning the forked repo:
 
-![clone](https://github.com/bponce04/lab4/blob/main/cloning%20the%20forked%20repo.png?raw=true)
+![clone](https://github.com/bponce04/lab4/blob/main/cloning%20forked%20repo.png?raw=true)
 
-* keys pressed: `<up><up><up><up><up><up><up><up><enter>`, this command was 8 `<up>`'s in my terminal's history so I used it to access it and be able to clone the cloned repository, lab7.
+* keys pressed: `<enter>`, was used to be able to clone the forked repository.
 
 ## 6) Running the tests (check if they fail):
 
-![JUnit 1](https://github.com/bponce04/lab4/blob/main/JUnit%20error.png?raw=true)
+![JUnit 1](https://github.com/bponce04/lab4/blob/main/JUnit%20tests%20fail.png?raw=true)
 
-* Keys pressed: `<up><up><up><up><up><up><up><enter>`, this command was 7 `<up>`'s in my terminal's history so I used it to access it to be able to show that the JUnit tests were failing before I did any changes in `vim`.
+* Keys pressed: `<enter>`, was used to run the JUnit tests for the first time and verify that the tests were failing.
 
 ## 7) Fixing `ListExamples.java` using `vim`:
 
-![vim](https://github.com/bponce04/lab4/blob/main/accessing%20vim.png?raw=true)
+![vim](https://github.com/bponce04/lab4/blob/main/vimming%20code%20(before).png?raw=true)
 * Opening `vim` with `ListExamples.java` before I can do any changes
-![vim2](https://github.com/bponce04/lab4/blob/main/editing%20the%20file.png?raw=true)
+![vim2](https://github.com/bponce04/lab4/blob/main/vimming%20code.png?raw=true)
 * Finding the line that needs editing and fixing it
-![vim3](https://github.com/bponce04/lab4/blob/main/saving%20the%20edit.png?raw=true)
-* Saving my changes and quitting using `:wq`
-* Keys pressed: `<up><up><up><up><up><up><enter>`, this command was 6 `<up>`'s in my terminal's history so I used it to access it to be able to call `vim` on `ListExamples.java`. 
+* Keys pressed: `<A>`, this was to access `INSERT MODE` and edit the last instance of index1 with index2
 
 ## 8) Running the tests (check if they pass):
 
 ![JUnit 2](https://github.com/bponce04/lab4/blob/main/JUnit%20pass.png?raw=true)
 
-* Keys pressed: `<up><up><up><up><up><enter>`, this command was 5 `<up>`s in my terminal's history so I used it to access it and check if the JUnit tests were passing after the `vim` edit.
+* Keys pressed: `<up><up><enter>`, this command took 2 `<up>`'s and an `<enter>`. This was to run the same command from step #6 to ensure that the file was passing all of the JUnit tests
 
 ## 9) Saving these changes with git commands:
-![commit](https://github.com/bponce04/lab4/blob/main/comitting%20changes.png?raw=true)
+![commit](https://github.com/bponce04/lab4/blob/main/adding%20and%20committing%20changes.png?raw=true)
 * committing the changes I made in the file
 ![push](https://github.com/bponce04/lab4/blob/main/pushing%20changes.png?raw=true)
 * pushing the changes
-* Keys pressed: `<up><up><up><up><enter>`, this command was 4 `<up>`s in my terminal's history so I used it to access it and push the changes I made to `ListExamples.java` using `vim`.
+* Keys pressed: `<enter>` to add, commit, and push the changes I made to `ListExamples.java` using `vim`.
 
